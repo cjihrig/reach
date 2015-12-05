@@ -1,0 +1,36 @@
+{
+  "name": "reach",
+  "version": "1.0.0",
+  "description": "safely retrieve nested object keys",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/reach",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuationlabs/reach"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/reach/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "belly-button && lab -v -t 100 -a code"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "1.x.x",
+    "code": "2.x.x",
+    "lab": "8.x.x"
+  },
+  "keywords": [
+    "object",
+    "path",
+    "nested",
+    "reach",
+    "nested object",
+    "safe lookup",
+    "object path"
+  ]
+}
