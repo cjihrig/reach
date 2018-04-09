@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "safely retrieve nested object keys",
   "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
-  "main": "lib/index.js",
+  "main": "./build/index.js",
   "homepage": "https://github.com/continuationlabs/reach",
   "repository": {
     "type": "git",
@@ -14,15 +14,24 @@
   },
   "license": "MIT",
   "scripts": {
+    "build": "webpack --mode production",
+    "prepublish": "npm run build",
     "test": "belly-button && lab -v -t 100 -a code"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "belly-button": "1.x.x",
     "code": "2.x.x",
-    "lab": "8.x.x"
+    "lab": "8.x.x",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
   },
   "keywords": [
     "object",
