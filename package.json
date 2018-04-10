@@ -1,6 +1,6 @@
 {
   "name": "reach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "safely retrieve nested object keys",
   "author": "Colin Ihrig <cjihrig@gmail.com> (https://cjihrig.com/)",
   "main": "lib/index.js",
