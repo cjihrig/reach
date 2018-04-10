@@ -2,15 +2,15 @@
   "name": "reach",
   "version": "1.0.0",
   "description": "safely retrieve nested object keys",
-  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "author": "Colin Ihrig <cjihrig@gmail.com> (https://cjihrig.com/)",
   "main": "lib/index.js",
-  "homepage": "https://github.com/continuationlabs/reach",
+  "homepage": "https://github.com/cjihrig/reach",
   "repository": {
     "type": "git",
-    "url": "https://github.com/continuationlabs/reach"
+    "url": "https://github.com/cjihrig/reach"
   },
   "bugs": {
-    "url": "https://github.com/continuationlabs/reach/issues"
+    "url": "https://github.com/cjihrig/reach/issues"
   },
   "license": "MIT",
   "scripts": {
@@ -20,9 +20,9 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "belly-button": "1.x.x",
-    "code": "2.x.x",
-    "lab": "8.x.x"
+    "belly-button": "4.x.x",
+    "code": "5.x.x",
+    "lab": "14.x.x"
   },
   "keywords": [
     "object",

@@ -1,10 +1,9 @@
 # reach
 
 [![Current Version](https://img.shields.io/npm/v/reach.svg)](https://www.npmjs.org/package/reach)
-[![Build Status via Travis CI](https://travis-ci.org/continuationlabs/reach.svg?branch=master)](https://travis-ci.org/continuationlabs/reach)
-![Dependencies](http://img.shields.io/david/continuationlabs/reach.svg)
-[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
-
+[![Build Status via Travis CI](https://travis-ci.org/cjihrig/reach.svg?branch=master)](https://travis-ci.org/cjihrig/reach)
+![Dependencies](http://img.shields.io/david/cjihrig/reach.svg)
+[![belly-button-style](https://cdn.rawgit.com/cjihrig/belly-button/master/badge.svg)](https://github.com/cjihrig/belly-button)
 
 Safely retrieve nested object keys. Inspired by the [Hoek](https://github.com/hapijs/hoek) module's `reach()` method.
 
